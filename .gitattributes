@@ -1,0 +1,12 @@
+# Normalize line endings
+* text=auto
+
+# Force LF cho file code
+*.py text eol=lf
+*.ipynb text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.sh text eol=lf
+
+# Windows script nếu có
+*.bat text eol=crlf
